@@ -6,3 +6,5 @@ export function sample <T>(arr: T []): T { //generic function takes some type. Y
     const idx = Math.floor(Math.random() * arr.length);
     return arr[idx];
 }
+
+export const pi = 3.14;
