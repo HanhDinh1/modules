@@ -1,3 +1,4 @@
+import type { Person } from "./types.ts";
 export default class User {
     constructor(public username: string, public email: string) {}
     logout() {

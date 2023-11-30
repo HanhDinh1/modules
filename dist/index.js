@@ -1,4 +1,5 @@
-import { add, sample, pi } from "./utils.js";
-console.log(sample([12, 3, 34]));
+import { add, sample as randomSample, pi } from "./utils.js";
+const sample = 2131552;
+console.log(randomSample([12, 3, 34]));
 console.log(add(1, 2));
 console.log(pi);
